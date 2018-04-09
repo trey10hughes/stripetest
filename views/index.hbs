@@ -1,0 +1,19 @@
+HOME
+push this button to pay with stripe
+use "4242 4242 4242 4242" as the card number
+<form action="/charge" method="post">
+    <script
+    src = "https://checkout.stripe.com/checkout.js"
+    class = "stripe-button"
+    {{!-- public key --}}
+    data-key = "pk_test_oxsm0vltd9tZIxeWAI8RhQuh" 
+    {{!-- this amount is $300, so the unit for amount is $0.01 --}}
+    data-amount = "30000" 
+    data-name = "test"
+    data-description = "trying to see if I can get stripe charges to work"
+    data-locale = "auto"
+    data-currency = "usd"
+    >
+        
+    </script>
+</form>

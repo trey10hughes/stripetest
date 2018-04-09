@@ -1,0 +1,15 @@
+{
+  "name": "stripetesting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "stripe": "^5.8.0"
+  }
+}
